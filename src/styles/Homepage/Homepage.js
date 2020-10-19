@@ -1,0 +1,77 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    padding: 10,
+    backgroundColor: '#111222',
+    flex: 1,
+  },
+  header: {
+    // backgroundColor: '',
+  },
+  barIcon: {
+    width: 40,
+    height: 40,
+    marginBottom: 10,
+    backgroundColor: 'white',
+  },
+  wrap: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 5,
+  },
+  box1: {
+    width: 145,
+    height: 145,
+    margin: 10,
+    backgroundColor: 'pink',
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 5,
+  },
+  box2: {
+    width: 145,
+    height: 145,
+    margin: 10,
+    backgroundColor: '#f165c4',
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 5,
+  },
+  box3: {
+    width: 145,
+    height: 145,
+    margin: 10,
+    backgroundColor: '#1cfda6',
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 5,
+  },
+  box4: {
+    width: 145,
+    height: 145,
+    margin: 10,
+    backgroundColor: '#9ffd1c',
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 5,
+  },
+  box5: {
+    width: 145,
+    height: 145,
+    margin: 10,
+    backgroundColor: '#1ce2fd',
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 5,
+  },
+  box6: {
+    width: 145,
+    height: 145,
+    margin: 10,
+    backgroundColor: '#fdc41c',
+    justifyContent: 'center',
+    alignItems: 'center',
+    elevation: 5,
+  },
+});
