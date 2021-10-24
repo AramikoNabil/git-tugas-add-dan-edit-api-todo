@@ -23,6 +23,10 @@ class DrawerContent extends React.Component {
             <Text style={styles.Name}>Aramiko Nabil</Text>
             <Text style={styles.username}>@username</Text>
           </View>
+          <View style={styles.User}>
+            <Text style={styles.Name}>Win Temasmiko</Text>
+            <Text style={styles.username}>@username</Text>
+          </View>
 
           <View>
             <TouchableOpacity
